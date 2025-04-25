@@ -1,0 +1,23 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    #port: 6379
+    port: 6389
+    password: 'eoffice10redis'
+    #password: ''
+
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 1985907993@qq.com
+    password: exokrfrpvlpwedjg
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          timeout: 5000
+          connectiontimeout: 5000
+    from: 1985907993@qq.com
+
